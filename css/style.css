@@ -1,0 +1,1430 @@
+/*Basic settincgs*/
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	position: relative;
+	padding-left: 5rem;
+}
+
+a:focus {
+	outline: none;
+}
+
+button:focus , input:focus {
+	outline: none;
+}
+
+
+/*Menu*/
+
+.menu {
+  text-transform: uppercase;
+  background-color: rgb(48, 52, 65);
+  position: fixed;
+  width: 100%;
+  height: 88px;
+  top: 0px;
+  left: 0px;
+  z-index: 260;
+  color: #fff;
+  box-shadow: 0px 7px 0px 0px rgb(55, 59, 74)
+}
+
+.logo h1{
+	display: inline;
+	position: absolute;
+	font-weight: 700;
+	font-size: 2rem;
+	vertical-align: middle;
+	padding: 2rem;
+	padding-left: 4rem;
+}
+.logo h1 span {
+	color: red;
+}
+.menu-links ul {
+	word-spacing: 1.5rem;
+	text-align: right;
+	padding-top: 2.5rem;
+	padding-right: 5rem;
+}
+
+.menu-links a{
+	position: relative;
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu-links a:hover {
+	color: red;
+}
+
+/*Starting-Page*/
+
+.starting-page {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	background-color: #eb5055;
+}
+
+.arrow-rigth {
+    margin-left: auto;
+    margin-right: 8rem;
+    position: absolute;
+    width: 4rem;
+    right: -3rem;
+    height: 4rem;
+    top: 30rem;
+    left: 4rem;
+    padding-top: 6rem;
+}
+
+.arrow-left {
+    position: absolute;
+    width: 4rem;
+    height: 2rem;
+    top: 30rem;
+    left: 4rem;
+    padding-top: 6rem;
+}
+
+.arrow span {
+	position: absolute;
+	display: block;
+    background-color: #ca4549;
+    height: 1.1rem;
+    border-radius: 5rem;
+    width: 125%;
+}
+
+.arrow-left span:nth-child(1) {
+	top: 20px;
+    left: -8px;
+    transform: rotate(-40deg);
+}
+
+.arrow-left span:nth-child(2) {
+	top: 60px;
+	left: -8px;
+	transform: rotate(40deg);
+}
+
+.arrow-rigth span:nth-child(1) {
+	top: 20px;
+    left: -8px;
+    transform: rotate(40deg);
+}
+
+.arrow-rigth span:nth-child(2) {
+	top: 60px;
+	left: -8px;
+	transform: rotate(-40deg);
+}
+
+.iphone {
+	display: inline-block;
+}
+
+.iphone_1 {
+	display: inline-block;
+	position: relative;
+	height: 40rem;
+	width: 20rem;
+	background-color: #f2f2f2;
+	top: 9rem;
+	border-radius: 2rem;
+	margin-left: 20rem;
+	box-shadow:0.5rem 0.5rem rgb(202,69,73), 
+				1rem 1rem rgb(202,69,73), 
+				1.5rem 1.5rem rgb(202,69,73),
+				2rem 2rem rgb(202,69,73);
+}
+
+
+.iphone_2 {
+	display: inline-block;
+	position: relative;
+	height: 20rem;
+	width: 40rem;
+	background-color: #fff;
+	border-radius: 2rem;
+	margin-left: 10rem;
+	vertical-align: bottom;
+	margin-top: 9%;
+	box-shadow:0.5rem 0.5rem rgb(202,69,73), 
+				1rem 1rem rgb(202,69,73), 
+				1.5rem 1.5rem rgb(202,69,73),
+				2rem 2rem rgb(202,69,73);
+}
+
+.photo_1 {
+	margin-top: 6%;
+    height: 78%;
+    width: 92%;
+    margin-left: 4%;
+}
+
+.Red_1 {
+	width: 1rem;
+    height: 1rem;
+    background-color: red;
+    border-radius: 50%;
+    margin: 0.5rem auto;
+    border: 3px solid #9E9E9E;
+}
+
+.button_1 {
+	width: 3.5rem;
+    height: 3.5rem;
+    background: url(../img/Square.svg) no-repeat center center;
+	background-size: 65%;
+    background-color: #fff;
+    margin: 9px auto;
+    border-radius: 50%;
+}
+
+.line_1 {
+	height: 0.4rem;
+	width: 20%;
+	background-color: #aeaeae;
+	margin: -3px auto;
+	border-radius: 2rem;
+}
+
+.button_2 {
+	width: 3.5rem;
+    height: 3.5rem;
+    background: url(../img/Square.svg) no-repeat center center;
+	background-size: 65%;
+    background-color: #fff;
+    border-radius: 50%;
+    vertical-align: center;
+    margin: -28% 1%;
+}
+
+.photo_2 {
+	margin-top: 2%;
+    width: 78%;
+    height: 92%;
+    margin-left: 10%;
+}
+
+.Red_2 {
+	width: 1rem;
+    height: 1rem;
+    background-color: red;
+    border-radius: 50%;
+    margin: -25% 95%;
+    border: 3px solid #9E9E9E;
+    position: relative;
+}
+
+.line_2 {
+	width: 0.4rem;
+    height: 20%;
+    background-color: #aeaeae;
+    margin: 19% 92%;
+    border-radius: 2rem;
+}
+
+/*Our Services*/
+
+.Our_Services {
+	display: block;
+	position: absolute;
+	height: 80vh;
+	width: 100%;
+	margin-top: 100vh;
+	background-color: #f2f2f2;
+	color: #666d89;
+}
+
+.Caption h2 {
+	text-transform: uppercase;
+    font-weight: 900;
+    font-size: 3rem;
+    margin-top: 6rem;
+    margin-left: 5rem;
+}
+
+.Caption p {
+	font-weight: 100;
+	font-size: 2.25rem;
+	margin-top: 2rem;
+	margin-left: 5rem;
+	line-height: 3rem;
+}
+
+.Our_Services li{
+    margin-top: 6rem;
+    width: 25%;
+    display: inline-block;
+    margin-left: 5rem;
+}
+.Our_Services img {
+	display: inline-block;
+    height: 5rem;
+    float: left;
+}
+
+.Our_Services .pen_1 {
+	margin-left: -4rem;
+    margin-top: 0.9rem;
+    height: 3rem;
+}
+
+.Our_Services .pen_2{
+	margin-left: -3.4rem;
+    margin-top: 1rem;
+    height: 3rem;
+}
+
+.Our_Services .pen_3 {
+	margin-left: -4.2rem;
+    margin-top: 1.2rem;
+    height: 3rem;
+}
+
+.Our_Services .pen_4 {
+	margin-left: -3.5rem;
+    margin-top: 1rem;
+    height: 3rem;
+}
+
+.Our_Services .pen_5 {
+	margin-left: -4.1rem;
+    margin-top: 1rem;
+    height: 3rem;
+}
+
+.Our_Services .pen_6 {
+	margin-left: -4rem;
+    margin-top: 0.9rem;
+    height: 3rem;
+}
+li {
+	display: inline-block;
+}
+
+li .text {
+  margin-left: 10rem;
+}
+
+
+li h3 {
+	font-weight: 900;
+	font-size: 1.8rem;
+}
+
+li p {
+	font-weight:400;
+	font-size: 1.2rem;
+	line-height: 1.7rem;
+}
+
+/*Photo_blok*/
+
+.photo_blok {
+	width: 100%;
+    height: 150vh;
+    margin-top: 180vh;
+    background-color: #303441;
+    display: block;
+    position: absolute;
+    padding-left: 5rem;
+    color: #585e76;
+}
+
+.photo_blok h3 {
+	position: relative;
+	display: block;
+	font-weight: 700;
+	font-size: 3.5rem;
+	margin-top: 8rem ;
+}
+
+.photo_blok p {
+	position: relative;
+    display: block;
+    font-weight: 400;
+    font-size: 1.7rem;
+    margin-top:3rem;
+}
+
+.knob li {
+	position: relative;
+	display: inline-block;
+	margin-top: 2rem;
+	margin-left: 0.7rem;
+}
+
+.knob a {
+	position: relative;
+	display: inline-block;
+	font-weight: 400;
+	text-decoration: none;
+	color: #585e76;
+	border: 0.1rem solid #585e76;
+	border-radius: 0.6rem;
+	padding: 0.5rem;
+	font-size: 1.1rem;
+}
+
+.knob a:hover {
+	color:#fff;
+	border:0.1rem solid #fff;
+}
+
+.photo_block {
+	position: relative;
+    margin-top: 1rem;
+}
+
+.photo_blok  img{
+	margin: 1rem 1rem;
+	width: 20%;
+	transition: width 0.5s ease;
+}
+
+/*About_Us*/
+
+.About_Us {
+	display: inline-block;
+	position: absolute;
+	margin-top: 330vh;
+	height: 140vh;
+	width: 100%;
+	background-color: #f2f2f2;
+	padding-left: 5rem;
+	color: #585e76;
+}
+
+.About_Us h3 {
+	position: relative;
+	display: block;
+	font-weight: 900;
+	font-size: 3.5rem;
+	margin-top: 8rem ;
+}
+
+.About_Us h5  {
+	position: relative;
+    display: block;
+    font-weight: 400;
+    font-size: 2.2rem;
+    margin-top:3rem;
+    line-height: 3rem;
+}
+
+.Info {
+	display: inline-block;
+	width: 98%;
+	margin-left: -1rem;
+}
+
+.info_head {
+	display: inline-block;
+    margin-top: 2rem;
+    width: 32.9%;
+    padding: 1rem;
+    vertical-align: top;
+}
+
+.info_head img {
+    width: 100%;
+}
+
+.info_head h4 {
+	font-weight: 600;
+	font-size: 2.2rem;
+	margin-top: 2rem;
+}
+
+.info_head p {
+	margin-top: 1em;
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+
+.info_head ul {
+	margin-top: 5rem;
+    height: 7rem;
+}
+
+.boxer {
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+	border: 2px solid #585e76;
+    display: inline-block;
+}
+
+.fecebook {
+    background: url(../img/facebook.png) no-repeat center center;
+    background-size: 30%;
+}
+
+.google {
+	background: url(../img/google+.png) no-repeat center center;
+	background-size: 50%
+}
+
+.twiter {
+	background: url(../img/twitter.png) no-repeat center center;
+	background-size: 60%;
+}
+
+.In {
+	background: url(../img/linkedin.png) no-repeat center center;
+	background-size: 50%;
+}
+
+.boxer:hover {
+	background-color: #000;
+}
+
+/*Get a Quote*/
+
+.Get {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 110vh;
+	background-color: #eb5055;
+	margin-top: 470vh;
+	color: #f0d8d9;
+	padding-left: 5rem;
+	border-bottom:0.5rem solid #ea676b;
+}
+
+.Get h3 {
+	position: relative;
+	display: block;
+	font-weight: 900;
+	font-size: 3.5rem;
+	margin-top: 8rem ;
+}
+
+.Get h5  {
+	position: relative;
+    display: block;
+    font-weight: 400;
+    font-size: 2.2rem;
+    margin-top:3rem;
+    line-height: 3rem;
+}
+
+.field {
+	width: 90%;
+}
+.input {
+	border: inline-block;
+	width: 60%;
+	height: 10rem;
+}
+
+.inpyt, textarea {
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #f0d8d9;
+    display: inline-block;
+    width: 60%;
+    height: 4rem;
+    background-color: #ca4549;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    margin-top: 1.3rem;
+    padding-left: 1rem;
+    resize: none
+}
+
+textarea {
+	height:20rem !important;
+}
+
+textarea:focus {
+	border: none;
+    outline: none;
+}
+
+.Text_info{
+	text-align: left;
+    vertical-align: top;
+    margin-left: 65%;
+    margin-right: -7rem;
+    margin-top: -36rem;
+    width: 45%;
+}
+
+.Text_info h6 {
+	font-size: 2rem;
+}
+
+.Text_info p {
+	margin-top: 1rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.Text_info span {
+	display: block;
+	margin-top: 1rem;
+	font-size: 1.3rem;
+}
+
+.Text_info span img {
+	margin-right: 1rem;
+}
+
+.Text_info span img:nth-child(1){
+
+}
+
+.line {
+	width: 117.1%;
+    height: 2rem;
+    background-color: red;
+    margin-top: 20%;
+    margin-left: -6%;
+}
+
+.inpyt::-webkit-input-placeholder {
+color: #FF8A8C;
+}
+ 
+.inpyt:-moz-placeholder { /* Firefox 18- */
+color: #f48c8f;  
+}
+ 
+.inpyt::-moz-placeholder {  /* Firefox 19+ */
+color: #f48c8f;  
+}
+ 
+.inpyt:-ms-input-placeholder {  
+color: #f48c8f;  
+}
+
+/*Footer*/
+
+.footer {
+	position: absolute;
+	width: 100%;
+	height: 10rem;
+	margin-top: 580vh;
+	background-color: rgb(48, 52, 65);
+}
+
+.footer h3 {
+	font-size: 1.3rem;
+    color: #596078;
+    margin-left: 5rem;
+    margin-top: 3.5%;
+}
+
+.ip_help {
+	text-align: right;
+    margin-top: -2rem;
+    margin-right: 7rem;
+}
+
+.ip_help li {
+	margin-left: 0.5rem;
+}
+
+.ip_help .boxer:hover {
+	background-color: #fff;
+}
+
+
+
+@media (max-width: 1600px) {
+	.arrow {
+	 	height: 4rem;
+	}
+
+	.arrow-left{
+		top:24rem;
+	}
+
+	.arrow-rigth{
+		top: 24rem;
+	}
+
+	.iphone_1 {
+		margin-left: 23rem;
+		width: 13rem;
+		height:26rem ;
+	}
+
+	.button_1 {
+		width: 2rem;
+		height: 2rem;
+		margin: 0.3rem auto;
+	}
+
+	.Red_1 {
+		width: .8rem;
+		height: .8rem;
+	}
+
+	.iphone_2 {
+		top: 14rem;
+		width: 26rem;
+		height: 13rem;
+	}
+
+	.button_2 {
+		width: 2rem;
+		height: 2rem;
+		margin: -28% 2%;
+	}
+
+	.Red_2 {
+		width: .8rem;
+		height: .8rem;
+	}
+
+	/*OUT SERVICES*/
+
+	.Caption h2 {
+		margin-top: 3rem;
+		font-size: 2rem;
+	}
+
+	.Caption p {
+		font-size: 1.25rem;
+		line-height: 2rem;
+	}
+
+	.Our_Services li{
+		margin-top: 2rem;
+		display: inline-block;
+    	vertical-align: top;
+	}
+
+	li h3 {
+		font-size: 1.5rem;
+	}
+
+	li p {
+		font-size: 1rem;
+	}
+
+	.Our_Services img {
+		height: 4rem;
+	}
+
+	.Our_Services .pen_1 {
+    margin-left: -3.2rem;
+    margin-top: 0.7rem;
+    height: 2.5rem;
+    }
+
+    .Our_Services .pen_2{
+    margin-left: -2.8rem;
+    margin-top: 0.8rem;
+	height: 2.5rem;
+    }
+
+    .Our_Services .pen_3{
+    margin-left: -3.4rem;
+    margin-top: 0.9rem;
+	height: 2.5rem;
+    }
+
+    .Our_Services .pen_4{
+    margin-left: -2.9rem;
+    margin-top: 0.8rem;
+	height: 2.5rem;
+    }
+
+    .Our_Services .pen_5{
+    margin-left: -3.4rem;
+    margin-top: 0.8rem;
+	height: 2.5rem;
+    }
+
+    .Our_Services .pen_6{
+    margin-left: -3.3rem;
+    margin-top: 0.8rem;
+	height: 2.5rem;
+    }
+
+    /*About Us*/
+
+    .About_Us h3 {
+    	font-size: 3rem;
+    }
+
+    .About_Us h5 {
+    	font-size: 2rem;
+    }
+
+    .info_head h4 {
+    	font-size: 2rem;
+    }
+
+    .info_head p {
+    	font-size: 1.1rem;
+    }
+
+    .info_head ul {
+		margin-top: 3rem;
+    }
+
+    .boxer {
+    	width: 2.5rem;
+    	height: 2.5rem;
+    }
+
+    /*Get a Quote*/
+
+    .Get h3 {
+    	font-size: 3rem;
+    }
+
+    .Get h5 {
+    	font-size: 1.8rem;
+    }
+
+    .inpyt, textarea {
+    	font-size: 1.2rem;
+    	height: 3rem;
+    }
+
+    textarea {
+    	height: 15rem !important;
+    }
+
+    .Text_info {
+    	margin-top: -28rem;
+    }
+
+    .footer{
+    	height: 8rem;
+    }
+}
+
+@media (max-width: 1200px) {
+
+	.arrow-left{
+		width: 3rem;
+		top: 20rem;
+		
+	}
+	.arrow-left span:nth-child(1){
+		top: 32px;
+	}	
+
+	.arrow-rigth{
+		top: 20rem;
+		width: 3rem;
+	}
+
+	.arrow-rigth span:nth-child(1){
+		top: 32px;
+	}	
+
+
+	.iphone_1 {
+	margin-left: 24rem;
+    width: 11rem;
+    display: block;
+    height: 20rem;
+    margin-top: -5rem;
+	}
+
+	.button_1 {
+		width: 1.5rem;
+    	height: 1.5rem;
+		margin: 0.3rem auto;
+	}
+
+	.Red_1 {
+		width: .8rem;
+		height: .8rem;
+	}
+
+	.iphone_2 {
+	top: 10rem;
+    width: 20rem;
+    height: 11rem;
+    margin-left: 18rem;
+	}
+
+	.button_2 {
+		width: 1.5rem;
+    	height: 1.5rem;
+		margin: -29% 2%;
+	}
+
+	.line_2{
+		margin: 20% 92%;
+	}
+
+	.Red_2 {
+		width: .8rem;
+		height: .8rem;
+		margin: -28% 95%
+	}
+
+	/*OUT SERVICES*/
+
+	.Caption h2 {
+		font-size: 1.8rem;
+	}
+
+	.Caption p {
+		font-size: 1.2rem;
+		line-height: 1.8rem;
+	}
+
+	.Our_Services li{
+		margin-top: 2rem;
+		display: inline-block;
+    	vertical-align: top;
+    	width: 35%;
+	}
+
+	li .text {
+		margin-left: 5rem;
+	}
+
+	li h3 {
+		font-size: 1rem;
+	}
+
+	li p {
+		font-size: 0.8rem;
+	}
+
+	.Our_Services img {
+		height: 3rem;
+	}
+
+	.Our_Services .pen_1 {
+    margin-left: -2.5rem;
+    margin-top: 0.5rem;
+    height: 2rem;
+    }
+
+    .Our_Services .pen_2{
+    margin-left: -2.2rem;
+    margin-top: 0.5rem;
+    height: 2rem;
+    }
+
+    .Our_Services .pen_3{
+    margin-left: -2.6rem;
+    margin-top: 0.6rem;
+    height: 2rem;
+    }
+
+    .Our_Services .pen_4{
+    margin-left: -2.2rem;
+    margin-top: 0.5rem;
+    height: 2rem;
+    }
+
+    .Our_Services .pen_5{
+    margin-left: -2.6rem;
+    margin-top: 0.5rem;
+    height: 2rem;
+    }
+
+    .Our_Services .pen_6{
+    margin-left: -2.5rem;
+    margin-top: 0.5rem;
+    height: 2rem;
+    }
+
+    /*Portfolio*/
+
+    .photo_blok h3{
+    	font-size: 1.8rem;
+    }
+
+	.photo_blok p{
+		font-size: 1rem;
+	}
+    /*About Us*/
+
+    .About_Us h3 {
+    	font-size: 2rem;
+    }
+
+    .About_Us h5 {
+    	font-size: 1.2rem;
+    	line-height: 2rem;
+    }
+
+    .info_head h4 {
+    	font-size: 2rem;
+    }
+
+    .info_head p {
+    	font-size: 1.1rem;
+    }
+
+    .info_head ul {
+		margin-top: 3rem;
+    }
+
+    .boxer {
+    	width: 2.5rem;
+    	height: 2.5rem;
+    }
+
+    /*Get a Quote*/
+
+    .Get h3 {
+    	margin-top: 5rem;
+    	font-size: 2rem;
+    }
+
+    .Get h5 {
+    	margin-top: 2rem;
+    	font-size: 1rem;
+    	line-height: 2rem;
+    }
+
+    .inpyt, textarea {
+    	font-size: 1.2rem;
+    	height: 3rem;
+    }
+
+    textarea {
+    	height: 15rem !important;
+    }
+
+    .Text_info {
+    	margin-top: -28rem;
+    }
+
+    .footer{
+    	height: 8rem;
+    }
+
+    .footer h3 {
+    	margin-top: 5%;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+	/*MEnu*/
+
+	.logo h1 {
+		font-size: 1.4rem;
+		padding-left: 2rem;
+	}
+
+	.menu-links ul {
+		word-spacing: 0.6rem;
+		padding-right: 2rem;
+	}
+
+	.menu-links a {
+		font-size: 0.6rem;
+	}
+
+	/*Home*/
+
+	.arrow-left{
+		width: 2rem;
+		top: 17rem;
+	}
+
+	.arrow span{
+		height: 0.7rem;
+	}
+
+	.arrow-left span:nth-child(1){
+		top: 40px;
+	}	
+
+	.arrow-rigth{
+		top: 17rem;
+		width: 2rem;
+	}
+
+	.arrow-rigth span:nth-child(1){
+		top: 40px;
+	}	
+
+	.iphone_1 {
+	margin-left: 12rem;
+    width: 8.5rem;
+    height: 16rem;
+	}
+
+	.button_1 {
+		width: 1.2rem;
+    	height: 1.2rem;
+		margin: 0.2rem auto;
+	}
+
+	.Red_1 {
+		width: .6rem;
+		height: .6rem;
+	}
+
+	.iphone_2 {
+	top: 10rem;
+    width: 16rem;
+    height: 8.5rem;
+    margin-left: 10rem;
+	}
+
+	.button_2 {
+		width: 1.5rem;
+    	height: 1.5rem;
+		margin: -31.6% 0.2rem;
+	}
+
+	.line_2{
+		margin: 21.6% 92%;
+	}
+
+	.Red_2 {
+		width: .6rem;
+		height: .6rem;
+	}
+
+	/*OUT SERVICES*/
+
+	.Caption h2 {
+		margin-left: 2rem;
+		font-size: 1.5rem;
+	}
+
+	.Caption p {
+		font-size: 0.8rem;
+		line-height: 1.6rem;
+		margin-top: 1.2rem;
+		margin-left: 2rem;
+	}
+
+	.Our_Services li{
+		margin-top: 1.2rem;
+		display: inline-block;
+    	vertical-align: top;
+    	width: 100%;
+    	margin-left: 2rem;
+	}
+
+	li h3 {
+		font-size: 0.8rem;
+	}
+
+	li p {
+		font-size: 0.6rem;
+	}
+
+	.Our_Services img {
+		height: 2rem;
+	}
+
+	.Our_Services img:hover {
+		background-color:red;
+	} 
+
+	.Our_Services .pen_1 {
+    margin-left: -1.6rem;
+    margin-top: 0.3rem;
+    height: 1.3rem;
+    }
+
+    .Our_Services .pen_2{
+    margin-left: -1.5rem;
+    margin-top: 0.3rem;
+    height: 1.3rem;
+    }
+
+    .Our_Services .pen_3{
+    margin-left: -1.75rem;
+    margin-top: 0.4rem;
+    height: 1.3rem;
+    }
+
+    .Our_Services .pen_4{
+    margin-left: -1.5rem;
+    margin-top: 0.3rem;
+    height: 1.3rem;
+    }
+
+    .Our_Services .pen_5{
+    margin-left: -1.75rem;
+    margin-top: 0.3rem;
+    height: 1.3rem;
+    }
+
+    .Our_Services .pen_6{
+    margin-left: -1.7rem;
+    margin-top: 0.3rem;
+    height: 1.3rem;
+    }
+
+    /*Portfolio*/
+
+    .photo_blok {
+    	padding-left: 2rem;
+    }
+
+    .photo_blok h3{
+    	font-size: 1.6rem;
+    }
+
+	.photo_blok p{
+		font-size: 1rem;
+		margin-top: 1rem;
+	}
+
+	.photo_blok img{
+	margin: 0.5rem 2rem;
+    width: 30%;
+}
+    /*About Us*/
+
+    .About_Us h3 {
+    	font-size: 1.8rem;
+    	margin-top: 4rem;
+    }
+
+    .About_Us h5 {
+    	font-size: 1rem;
+    	line-height: 2rem;
+    	margin-top: 1.5rem;
+    }
+
+    .info_head {
+    	width: 100%;
+    	margin-top: 0rem;
+    	padding: 0rem;
+    	margin-top: 1rem;
+    }
+
+    .info_head img{
+    	width: 35%;
+    }
+
+    span.Choko {
+    width: 55%;
+    margin-left: 1rem;
+    display: inline-block;
+    }
+
+    .info_head h4 {
+    	font-size: 1.5rem;
+    }
+
+    .info_head p {
+    	font-size: 0.8rem;
+    	line-height: 1.2rem;
+    }
+
+    .info_head ul {
+		margin-top: 3rem;
+    }
+
+    .boxer {
+    	width: 2rem;
+    	height: 2rem;
+    }
+
+    /*Get a Quote*/
+	
+	.Get {
+		padding-left: 2rem;
+	}
+
+    .Get h3 {
+    	margin-top:3rem;
+    	font-size: 1.6rem;
+    }
+
+    .Get h5 {
+    	margin-top: 1rem;
+    	font-size: 0.8rem;
+    	line-height: 1.5rem;
+    }
+
+    .inpyt, textarea {
+    	font-size: 1rem;
+    	height: 2.5rem;
+    }
+
+    textarea {
+    	height: 20rem !important;
+    }
+
+    .Text_info {
+    	margin-top: -32rem;
+    }
+
+    .Text_info h6 {
+    	font-size: 1.2rem;
+    }
+
+	.Text_info p{
+	margin-top: 0.5rem;
+    font-size: 0.6rem;
+    line-height: 1.2rem;
+	}
+
+	.Text_info span{
+		font-size: 0.8rem;
+	}
+
+    .footer{
+    	height: 8rem;
+    }
+
+    .footer h3 {
+   	margin-top: 6%;
+    margin-left: 2rem;
+    font-size: 1rem;
+    }
+
+    .ip_help {
+    text-align: right;
+    margin-top: -1.5rem;
+    margin-right: 2rem; 
+    }
+}
+
+
+@media (max-width: 480px) {
+
+	/*MEnu*/
+
+	.logo h1 {
+		font-size: 1.2rem;
+	}
+
+	.menu-links ul {
+		word-spacing: 1rem;
+		padding-right: 2rem;
+	}
+
+	.menu-links a {
+		font-size: 0.5rem;
+	}
+
+	/*Home*/
+
+	.arrow-left{
+		width: 2rem;
+		top: 17rem;
+		margin-left: -2rem;
+	}
+
+	.arrow span{
+		height: 0.7rem;
+	}
+
+	.arrow-left span:nth-child(1){
+		top: 40px;
+	}	
+
+	.arrow-rigth{
+		top: 17rem;
+		width: 2rem;
+		margin-right: 4rem;
+	}
+
+	.arrow-rigth span:nth-child(1){
+		top: 40px;
+	}	
+
+	.iphone_1 {
+	margin-left: 8rem;
+    width: 8.5rem;
+    height: 16rem;
+	}
+
+	.button_1 {
+		width: 1.2rem;
+    	height: 1.2rem;
+		margin: 0.2rem auto;
+	}
+
+	.Red_1 {
+		width: .6rem;
+		height: .6rem;
+	}
+
+	.iphone_2 {
+	top: 10rem;
+    width: 16rem;
+    height: 8.5rem;
+    margin-top: 5rem;
+    margin-left: 4rem;
+	}
+
+	.button_2 {
+		width: 1.5rem;
+    	height: 1.5rem;
+		margin: -31.6% 0.2rem;
+	}
+
+	.line_2{
+		margin: 21.6% 92%;
+	}
+
+	.Red_2 {
+		width: .6rem;
+		height: .6rem;
+	}
+
+
+	.Our_Services li{
+		width: 90%;
+	}
+
+	li .text{
+		margin-left: 3rem;
+	}
+
+	.info_head img {
+    vertical-align: top;
+    width: 35%;
+	}
+	
+	span.Choko {
+    vertical-align: top;
+    width: 50%;
+    margin-left: 1rem;
+    display: inline-block;
+    margin-top: -2rem;
+	}
+
+	.info_head ul {
+    margin-top: 1rem;
+    }
+
+    .footer h3 {
+    margin-top: 13%;
+    margin-left: 2rem;
+    font-size: 0.8rem;
+    }
+}
+
